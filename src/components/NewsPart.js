@@ -6,7 +6,7 @@ export class NewsPart extends Component {
     return (
       <div>
         <div className="card" style={{ margin: '15px', padding: '10px', textAlign: 'center' }}>
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{name}
+        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{name}
         </span>
           <img src={imageUrl} className="card-img-top" alt={alt} />
           <div className="card-body">
